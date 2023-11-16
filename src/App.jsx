@@ -87,7 +87,7 @@ export default function App() {
   const [students, setStudens] = useState(initialStudents)
   return (
     <div className="App">
-      <h1 className='ReactStudent'>Reactionary-Students</h1>
+      <h1 className='AppTitle'>Reactionary-Students</h1>
       {students.map((student, idx) => (<Student key={idx} student={student}/>))}
     </div>
   )
