@@ -20,6 +20,7 @@
     border: 5px solid black;
     margin: 3% 40% 3% 40%;
     background-color: #CD5C5C99;
+    font-weight: 900;
 }
 
 .StudentBio {
@@ -27,7 +28,7 @@
     border: 5px solid black;
     margin: 0 20%;
     background-color: #CD5C5C99;
-    font-weight: bold;
+    font-weight: 900;
     margin-bottom: 1%;
 }
 
@@ -36,24 +37,24 @@
     border: 5px solid black;
     margin: 3% 40%;
     background-color: #CD5C5C99;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .Date {
     border-radius: 20px;
-    border: 2px solid black;
+    border: 5px solid black;
     margin: 0 42%;
     background-color: #CD5C5C99;
-    font-weight: bold;
+    font-weight: 900;
     margin-top: 2%;
 }
 
 .Score {
     border-radius: 20px;
-    border: 2px solid black;
+    border: 5px solid black;
     margin: 0 45% 1% 45%;
     background-color: #CD5C5C99;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 hr {
