@@ -11,7 +11,7 @@
     border-radius: 20px;
     border: 5px solid black;
     margin: 5% 10% 10% 10%;
-    background-color: #CD5C5C90;
+    background-color: #CD5C5C99;
     font-weight: bold;
 }
 
@@ -19,14 +19,14 @@
     border-radius: 20px;
     border: 5px solid black;
     margin: 3% 40% 3% 40%;
-    background-color: #CD5C5C90;
+    background-color: #CD5C5C99;
 }
 
 .StudentBio {
     border-radius: 20px;
     border: 5px solid black;
     margin: 0 20%;
-    background-color: #CD5C5C90;
+    background-color: #CD5C5C99;
     font-weight: bold;
     margin-bottom: 1%;
 }
@@ -35,24 +35,24 @@
     border-radius: 20px;
     border: 5px solid black;
     margin: 3% 40%;
-    background-color: #CD5C5C90;
+    background-color: #CD5C5C99;
     font-weight: bold;
 }
 
 .Date {
     border-radius: 20px;
     border: 2px solid black;
-    margin: 0 40%;
-    background-color: #CD5C5C90;
+    margin: 0 42%;
+    background-color: #CD5C5C99;
     font-weight: bold;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .Score {
     border-radius: 20px;
     border: 2px solid black;
-    margin: 0 45% 2% 45%;
-    background-color: #CD5C5C90;
+    margin: 0 45% 1% 45%;
+    background-color: #CD5C5C99;
     font-weight: bold;
 }
 
