@@ -1,0 +1,58 @@
+.App {
+    background-image: url('./img/Tatsu-Back-Tattoo.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+}
+
+.ReactStudent {
+    border-radius: 20px;
+    border: 5px solid black;
+    margin: 5% 10% 10% 10%;
+    background-color: #CD5C5C90;
+    font-weight: bold;
+}
+
+.StudentName {
+    border-radius: 20px;
+    border: 5px solid black;
+    margin: 0 40%;
+    background-color: #CD5C5C90;
+    margin-bottom: 3%;
+}
+
+.StudentBio {
+    border-radius: 20px;
+    border: 5px solid black;
+    margin: 0 20%;
+    background-color: #CD5C5C90;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.ScoreTitle {
+    border-radius: 20px;
+    border: 5px solid black;
+    margin: 5% 40%;
+    background-color: #CD5C5C90;
+    font-weight: bold;
+}
+
+.Date {
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 0 30%;
+    background-color: #CD5C5C90;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.Score {
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 0 35%;
+    background-color: #CD5C5C90;
+    font-weight: bold;
+}

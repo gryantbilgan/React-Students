@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Student from './Student'
+import './style.css'
 
 const initialStudents = [
   {
@@ -63,7 +64,7 @@ const initialStudents = [
   },
   {
     name: 'Bruce Wayne',
-    bio: "After seeing his parents gunned down in front of him as a ten year old Bruce Wayne dedicated himself to a lifelong journey...becoming the Batman. Batman is the superhero protector of Gotham City, a tortured, brooding vigilante dressed as a bat who fights against evil and strikes fear into the hearts of criminals everywhere. In his public identity, he is Bruce Wayne, a billionaire industrialist and notorious playboy. Although he has no superhuman abilities, he is one of the world's smartest men and greatest fighters. His physical prowess, technical ingenuity, and tactical thinking make him an incredibly dangerous opponent. He was also a founding member of the Justice League.",
+    bio: "After seeing his parents gunned down in front of him as a ten year old, Bruce Wayne dedicated himself to a lifelong journey...becoming the Batman. Batman is the superhero protector of Gotham City, a tortured, brooding vigilante dressed as a bat who fights against evil and strikes fear into the hearts of criminals everywhere. In his public identity, he is Bruce Wayne, a billionaire industrialist and notorious playboy. Although he has no superhuman abilities, he is one of the world's smartest men and greatest fighters. His physical prowess, technical ingenuity, and tactical thinking make him an incredibly dangerous opponent. He was also a founding member of the Justice League.",
     scores: [
       {
         date: '2023-06-13',
@@ -85,9 +86,9 @@ const initialStudents = [
 export default function App() {
   const [students, setStudens] = useState(initialStudents)
   return (
-    <>
-      <h1>Reactionary-Students</h1>
+    <div className="App">
+      <h1 className='ReactStudent'>Reactionary-Students</h1>
       {students.map((student, idx) => (<Student key={idx} student={student}/>))}
-    </>
+    </div>
   )
 }
